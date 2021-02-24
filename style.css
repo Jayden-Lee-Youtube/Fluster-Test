@@ -1,1 +1,15 @@
-
+.bottom-button input {
+  display: none;
+}
+.bottom-button label {
+  position: absolute;
+  cursor: pointer;
+  border: 0.1% solid #337eff;
+  border-radius: 0.3%;
+  transform: translate(-50%, 0);
+}
+.bottom-button label img {
+  position: relative;
+  height: 60%;
+  width: 60%;
+}
